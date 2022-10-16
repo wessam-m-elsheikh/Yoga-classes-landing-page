@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img src="imgs/logo.png" alt="logo" id="header-img" />
+      <nav id="nav-bar">
+        <a href="#services" class="nav-link">services</a>
+        <a href="#pricing" class="nav-link">prices</a>
+        <a href="#about-us" class="nav-link">about us</a>
+        <a href="#" class="nav-link btn">book now</a>
+        <button class="menu">
+          <img src="imgs/square.png" alt="menu" class="menu-img" />
+          <div class="drop-menu">
+            <a href="#services" class="menu-link">services</a>
+            <a href="#pricing" class="menu-link">prices</a>
+            <a href="#about-us" class="menu-link">about us</a>
+            <div class="menu-link btn">book now</div>
+          </div>
+        </button>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-heading">explore ultimate</h1>
+        <h2 class="hero-2nd-heading">relaxation</h2>
+        <p class="text">feel good and fresh everyday.</p>
+        <form action="#" id="form">
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <input type="submit" value="submit" id="submit" class="btn" />
+        </form>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h2 class="section-heading">Services</h2>
+      <p class="text">
+        we offer variable exquisite services help you remove all week's stress
+      </p>
+      <div class="services-cards">
+        <div class="card">
+          <img src="imgs/lotus (1).png" alt="yoga-icon" class="icon" />
+          <h3 class="service-heading">Yoga</h3>
+          <ul class="list">
+            <li class="list-text">daily Yoga classes.</li>
+            <li class="list-text">day / night classes.</li>
+            <li class="list-text">indoors / outdoors.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="imgs/massage.png" alt="spa-icon" class="icon" />
+          <h3 class="service-heading">Spa</h3>
+          <ul class="list">
+            <li class="list-text">sweddish massage.</li>
+            <li class="list-text">Shiatsu Massage.</li>
+            <li class="list-text">thai massage.</li>
+            <li class="list-text">Reflexology.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="imgs/fitness.png" alt="fitness-icon" class="icon" />
+          <h3 class="service-heading">fitness</h3>
+          <ul class="list">
+            <li class="list-text">Strength Training.</li>
+            <li class="list-text">Aerobic Training.</li>
+            <li class="list-text">Balance and Stability Training.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="imgs/meditation.png" alt="meditation-icon" class="icon" />
+          <h3 class="service-heading">meditation</h3>
+          <ul class="list">
+            <li class="list-text">mindfulness meditation.</li>
+            <li class="list-text">mantra meditation.</li>
+            <li class="list-text">focused meditation.</li>
+            <li class="list-text">muscular meditation.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="pricing" id="pricing">
+      <h2 class="section-heading">pricing</h2>
+      <p class="text">
+        we offer variable exquisite services help you remove all week's stress
+      </p>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="price-card">
+              <img
+                src="imgs/full-package.png"
+                class="d-block price-img"
+                alt="full-package"
+              />
+              <h2 class="price-heading">Full-Package</h2>
+              <ul>
+                <li><a href="#" class="price-link">200-Hour - 500$</a></li>
+                <li><a href="#" class="price-link">300-Hour - 700$</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="price-card">
+              <img
+                src="imgs/half-package.png"
+                class="d-block price-img"
+                alt="half-package"
+              />
+              <h2 class="price-heading">Half-Package</h2>
+              <ul>
+                <li><a href="#" class="price-link">200-Hour - 300$</a></li>
+                <li><a href="#" class="price-link">300-Hour - 400$</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="about-us" id="about-us">
+      <h2 class="section-heading">about us</h2>
+      <figure class="about-us-content">
+        <video controls autoplay>
+          <source src="imgs/yoga-video.webm" type="video/mp4" />
+          Your browser is not supported!
+        </video>
+        <figcaption class="caption">
+          <span
+            ><em>Our Vision:</em> To spread awareness and knowledge of yoga and
+            "Yogic Philosophy”.</span
+          >
+          <br />
+          <span>
+            Relax Yoga programs aim to stimulate mindful living as a daily
+            conscious choice among Yoga practitioners.</span
+          >
+          <br />
+          <span> Our team of dedicated yoga teachers will help you do so.</span>
+        </figcaption>
+      </figure>
+      <span class="follow">Follow us: </span>
+      <!-- <a href="#"><img src="imgs/facebook (1).png" alt="" /></a> -->
+      <a href="#"
+        ><img src="imgs/facebook (1).png" alt="" class="follow-icon"
+      /></a>
+      <a href="#"
+        ><img src="imgs/instagram.png" alt="" class="follow-icon"
+      /></a>
+      <a href="#"><img src="imgs/twitter.png" alt="" class="follow-icon" /></a>
+    </section>
+    <footer>
+      <img src="imgs/logo.png" alt="logo" class="footer-logo" />
+      <div class="footer-content">
+        <div class="left">
+          <a href="#services" class="nav-link">classes</a>
+          <a href="#pricing" class="nav-link">prices</a>
+          <a href="#about-us" class="nav-link">contact us</a>
+        </div>
+        <div class="right">
+          <p class="copyright">copyright &copy; Wessam Elsheikh</p>
+          <p class="copyright">Credits:</p>
+          <div class="credits">
+            <a
+              href="https://www.flaticon.com/free-icons/facebook"
+              title="facebook icons"
+              >Facebook icon</a
+            >
+            <a href="https://www.flaticon.com/free-icons/spa" title="spa icons"
+              >Spa icon</a
+            >
+
+            <a href="https://www.flaticon.com/free-icons/gym" title="gym icons"
+              >Fitness icon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/meditation"
+              title="meditation icons"
+              >Meditation icon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/facebook"
+              title="facebook icons"
+              >Facebook icon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/instagram"
+              title="instagram icons"
+              >Instagram icon</a
+            >
+
+            <a
+              href="https://www.flaticon.com/free-icons/twitter"
+              title="twitter icons"
+              >Twitter icon</a
+            >
+            <a
+              href="https://www.flaticon.com/free-icons/hamburger"
+              title="hamburger icons"
+              >Hamburger icon</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
